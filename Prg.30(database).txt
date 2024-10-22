@@ -1,0 +1,14 @@
+ create table item_mast(Pro_id int(25),Pro_name varchar(25),Pro_price float(25),Pro_com int(20))
+
+insert into item_mast values(101,"Mother Board",3200.00,15)
+insert into item_mast values(102,"Key board",450.00,16)
+insert into item_mast values(103,"ZIP drive",250.00,14)
+insert into item_mast values(104,"Speaker",550.00,16)
+insert into item_mast values(105,"Monitor",5000.00,11)
+insert into item_mast values(106,"DVD drive",900.00,12)
+insert into item_mast values(107,"CD drive",800.00,12)
+insert into item_mast values(108,"Printer",2600.00,13)
+insert into item_mast values(109,"Refill cartridge",350.00,13)
+insert into item_mast values(110,"Mouse",250.00,12)
+
+select * from item_mast where Pro_price>=200 and Pro_price<=600

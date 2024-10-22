@@ -1,0 +1,2 @@
+ Que.2 - What is Normalisation?
+ Ans.		normalization is the process of organizing data to reduce redundancy and improve data integrity. It ensures that the database achieves an optimal structure composed of atomic elements (which means elements that cannot be broken down into smaller parts).

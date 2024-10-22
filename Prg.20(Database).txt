@@ -1,0 +1,31 @@
+--  use assainment;
+
+ -- create table Employee(employeeId int primary key auto_increment,firstName varchar(25),lastName varchar(25),salary int,Department varchar(25));
+ 
+ -- create table Employee_view(id int primary key auto_increment,type varchar(35),time time,count int);
+ 
+ -- delimiter //
+--  create trigger addEmp after insert on Employee for each row
+--  begin	insert into Employee_view(type,time,count)
+--  values("insert",now(),1);
+--  end	//
+
+-- insert into Employee values(1,"john","abraham",1000000,"Banking");
+
+-- INSERT INTO Employee VALUES(2,'Michael','Clarke',800000,'Insurance');
+
+-- INSERT INTO Employee VALUES(3,'Roy','Thomas',700000,'Banking');
+
+-- INSERT INTO Employee VALUES (4,'Tom','Jose',600000,'Insurance');
+
+-- INSERT INTO Employee VALUES (5,'Jerry','Pinto',650000,'Insurance');
+
+-- INSERT INTO Employee VALUES (6,'Philip','Mathew',750000,'Services');
+
+-- INSERT INTO Employee VALUES (7,'Soham','Parmar',650000,'Services');
+
+-- INSERT INTO Employee VALUES (8,'Prem','Jalu',600000,'Insurance');
+
+  select *from Employee_view;
+
+ select * from Employee;

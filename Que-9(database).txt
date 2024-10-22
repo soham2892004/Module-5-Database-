@@ -1,0 +1,5 @@
+Que.9-What is save Point? How to create a save Point write a Query?
+Ans.		save point is a  marker in a transaction that allows you to go back to a specific point if something goes wrong. if you make a mistake while updating data in a database , you can roll back to a savepoint to undo the changes without affecting the entire transaction.
+
+		create savepoint query:
+			SAVEPOINT lable_name;

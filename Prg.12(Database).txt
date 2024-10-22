@@ -1,0 +1,31 @@
+ CREATE TABLE Employee(Employee_id int(10),First_name varchar(25),Last_name varchar(25),Salary double(30),Joining_date varchar(25),Department varchar(25));
+
+INSERT INTO employee VALUES(1,'John','Abraham',1000000, '01-Jan-13 12.00.00 AM','Banking');
+
+INSERT INTO employee VALUES(2,'Michael','Clarke',800000,'01-Jan-13 12.00.00 AM','Insurance');
+
+INSERT INTO employee VALUES(3,'Roy','Thomas',700000,'01-FEB-13 12.00.00 AM','Banking');
+
+INSERT INTO employee VALUES (4,'Tom','Jose',600000,'01-FEB-13 12.00.00 AM','Insurance');
+
+INSERT INTO employee VALUES (5,'Jerry','Pinto',650000,'01-FEB-13 12.00.00 AM','Insurance');
+
+INSERT INTO employee VALUES (6,'Philip','Mathew',750000,'01-JAN-13 12.00.00 AM','Services');
+
+INSERT INTO employee VALUES (7,'Soham','Parmar',650000,'01-JAN-13 12.00.00 AM','Services');
+
+INSERT INTO employee VALUES (8,'Prem','Jalu',600000,'01-FEB-13 12.00.00 AM','Insurance');
+
+
+
+CREATE TABLE Incentive(Employee_ref_id int(15),Incentive_date varchar(20),Incentive_amount int(25));
+
+INSERT INTO incentive VALUES(1,'01-FEB-13',5000);
+
+INSERT into incentive VALUES(2,'01-FEB-13',3000);
+
+INSERT INTO incentive VALUES(3,'01-FEB-13',4000);
+
+INSERT into incentive VALUES(1,'01-Jan-13',4500);
+
+INSERT INTO incentive VALUES(2,'01-Jan-13',3500);

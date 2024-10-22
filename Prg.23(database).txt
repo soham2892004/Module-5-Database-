@@ -1,0 +1,2 @@
+SELECT amount FROM orders WHERE amount > 1000;
+ 

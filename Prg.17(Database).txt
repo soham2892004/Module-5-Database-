@@ -1,0 +1,1 @@
+SELECT Department, MAX(Salary) AS MaxSalary FROM Employee GROUP BY Department ORDER BY Department;

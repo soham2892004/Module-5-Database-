@@ -1,0 +1,11 @@
+ Que.10- What is trigger and how to create a trigger in sql?
+ Ans.		triggers are stored procedures that are automatically executed in response to specific events that occur within a database. they are used to enforce data integrity, automate tasks, and implement business rules.
+
+		create  trigger:
+			create TRIGGER audit_customer_update after update on customers for each row 
+				begin  
+				    insert into CustomerAudit (CustomerId ,OldFirstName, NewFirstName)	
+				    
+				    values (OLD.CustomerId ,OLD.FirstName ,New.FirstName );
+	
+				End;

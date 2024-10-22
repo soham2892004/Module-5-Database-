@@ -1,0 +1,2 @@
+Que.5- What do you understand by data redundancy?
+Ans.		data redundancy happens when the same information is stored in multiple places.				For Ex., if you have a customer databases , you might store their name , address , and phone number in a "customers" table. if you have an "orders" table , you might store the customer's name and address again to associate them with their orders.

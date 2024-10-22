@@ -1,0 +1,1 @@
+SELECT e.first_name, i.incentive_amount FROM employee e INNER JOIN incentive i ON e.employee_id = i.employee_ref_id WHERE i.incentive_amount > 3000;

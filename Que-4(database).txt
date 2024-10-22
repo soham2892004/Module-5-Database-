@@ -1,0 +1,4 @@
+Que.4-What is MF Cod Rule of RDBMS Systems?
+Ans.		The MF Cod rule, also known as the dependency rule , is a fundamental constraint in relational database management systems(RDBMS).it ensures that the database is in a consistent and normalized state.
+		
+	In simpler terms, The MF Cod Rule is like a traffic rule for databases. it ensures that data is organised in a way that makes sense and prevent errors.

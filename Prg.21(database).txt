@@ -1,0 +1,17 @@
+CREATE table SALESPERSON(SNo int(40) PRIMARY KEY,SNAME varchar(40),CITY varchar(40),COMM float(25));
+
+INSERT into salesperson VALUES(1001,"Peel","London",.12);
+INSERT into salesperson VALUES(1002,"Serres","San Jose",.13);
+INSERT into salesperson VALUES(1004,"Motika","London",.11);
+INSERT into salesperson VALUES(1007,"Rafkin","Barcelona",.15);
+INSERT into salesperson VALUES(1003,"Axelrod","New york",.1);
+
+CREATE TABLE CUSTOMER(CNM int(20),CNAME varchar(25),CITY varchar(25),Rating int(20),SNo int(40),FOREIGN KEY(SNo) REFERENCES salesperson(SNo));
+
+INSERT into customer VALUES(201,"Hoffman","London",100,1001);
+INSERT into customer VALUES(202,"Giovanne","Roe",200,1003);
+INSERT into customer VALUES(203,"Liu","San Jose",300,1002);
+INSERT into customer VALUES(204,"Grass","Barelona",100,1002);
+INSERT into customer VALUES(206,"Ciemens","London",300,1007);
+INSERT into customer VALUES(207,"Pereira","Roe",100,1004);
+

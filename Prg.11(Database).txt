@@ -1,0 +1,16 @@
+ Create Table student ( RollNo int PRIMARY KEY , NAME varchar(50) , Branch varchar(50) );
+
+ INSERT INTO student VALUES (1,'Jay','Computer Science');
+ INSERT INTO student VALUES (2,'Suhani','Electronic and Com');
+ INSERT INTO student VALUES (3,'Kriti','Electronic and Com');
+
+ Create Table exam ( RollNo int, S_code varchar(50) , Marks int, P_code varchar(50), FOREIGN KEY (RollNo)             
+ REFERENCES student(RollNo) );
+
+INSERT INTO exam VALUES (1,'CS11',50,'CS');
+INSERT INTO exam VALUES (1,'CS12',60,'CS');
+INSERT INTO exam VALUES (2,'EC101',66,'EC');
+INSERT INTO exam VALUES (2,'EC102',70,'EC');
+INSERT INTO exam VALUES (3,'EC101',45,'EC');
+INSERT INTO exam VALUES (3,'EC102',50,'EC');
+ 

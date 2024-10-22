@@ -1,0 +1,2 @@
+ Que.1-what do you understand by database?
+ Ans.		i understand about database means it's a structure which is represent many type of data like numeric or string type data. it's store structured data. most database using sql. it's perform action to insert,  update, delete and view.
