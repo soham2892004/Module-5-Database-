@@ -1,0 +1,21 @@
+DBMS: 
+
+Definition:
+		 A DBMS is a software application that interacts with end-users, applications, and other database management systems to handle data. It provides an interface for users to define, create, retrieve, update, and manage data.
+
+Data Structures:
+		 Can support various data structures, including hierarchical, network, and relational.
+
+Operations: 
+		Offers basic operations like data insertion, deletion, modification, and retrieval.
+
+RDBMS:
+
+Definition:
+	 	An RDBMS is a specific type of DBMS that organizes data using a relational model. This model represents data as tables, where each table consists of rows (records) and columns (attributes).
+
+Data Structures: 
+		Exclusively uses the relational model, which is based on mathematical set theory.
+
+Operations: 
+		Provides more sophisticated operations, such as joins, unions, intersections, and differences, to manipulate and analyze data.
