@@ -1,1 +1,1 @@
- SELECT * from salesperson where city="barcelona" or "london";
+ SELECT * from salesperson where city="barcelona" or "London";
